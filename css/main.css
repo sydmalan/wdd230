@@ -1,0 +1,99 @@
+/*div for body 
+width 80% 
+margin 0 auto 
+
+grid for the heading*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+#spacing {
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    margin-top:10px;
+}
+
+body{
+    background-color: rgb(179, 209, 204);
+}
+
+#polaroid{
+    background-color: white;
+    border-style: outset;
+    border-radius: 8px;
+    padding: 45px;
+}
+
+/*header {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: Poppins;
+    font-size: 22px;
+    padding: 20px;
+}*/
+
+#polaroid_middle{
+    background-color:rgb(255, 249, 240);
+    border-style: inset;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+header h1{
+    margin-left: 60px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+img{
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+main{
+    margin-top: 30px;
+}
+
+h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+    line-height: 32px;
+    margin-top: -3px;
+    margin-bottom: 30px;
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+header p{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+footer{
+    margin-top: 35px;
+    text-align: center;
+    font-family: Poppins;
+    margin-bottom: -30px;
+}
+
+.year_name{
+    font-size: 18px;
+}
+
+.updated_info{
+    font-size: 12px;
+    margin-top: -12px;
+}
