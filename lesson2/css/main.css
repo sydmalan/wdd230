@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+main{
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(179, 209, 204);
+}
+
+
+#polaroid1{
+    padding: 5px 20px 20px 20px;
+    background-color: rgb(255, 252, 245);
+    border: 3px;
+    border-radius: 8px;
+    border-style: outset;
+    margin-bottom: 20px;
+}
+
+#polaroid2{
+    padding: 5px 20px 20px 20px;
+    background-color: rgb(255, 252, 245);
+    border: 3px;
+    border-radius: 8px;
+    border-style: outset;
+    margin-bottom: 20px;
+}
+
+#polaroid3{
+    padding: 5px 20px 20px 20px;
+    background-color: rgb(255, 252, 245);
+    border: 3px;
+    border-radius: 8px;
+    border-style: outset;
+    margin-bottom: 20px;
+}
+
+img{
+    width:300px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 40px;
+
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin-top:-20px;
+}
+
+h1, h2{
+    padding: 5px 5px 3px 5px;
+}
+
+header{
+    color:white;
+    background-color: rgb(101, 138, 132);
+    border-radius: 4px;
+}
+
+h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    text-align: center;
+    
+}
+
+h4, a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 0px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -12px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-weight: 16px; 
+    text-align: center;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color:white;
+    background-color: rgb(101, 138, 132);
+    padding: 5px;
+    border-radius: 4px;
+    line-height: 8px;
+    text-align: center;
+}
+
