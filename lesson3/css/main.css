@@ -47,7 +47,7 @@ nav ul{
     justify-content: space-evenly;
     list-style-type: none;
     margin: 0 auto;
-    background-color: rgb(101, 138, 132);
+    background-color: rgb(66, 91, 87);
     border-radius: 6px;
     padding:20px 10px 20px 10px;
 
@@ -161,7 +161,7 @@ ol li{
 
 
 footer {
-    background-color: rgb(101, 138, 132);
+    background-color: rgb(66, 91, 87);
     margin: 0 auto;
     width: 90%;
     padding: 5px 0 5px 0;
