@@ -1,0 +1,41 @@
+@media screen and (min-width: 700px){
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        margin: 0 auto;
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .3fr .3fr;
+        width:90%;
+        margin: 0 auto;
+    }
+
+    #buswomen{
+        display:inline;
+        margin: 0 auto;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #buswomenpara{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #dad{
+        display:inline;
+        margin: 0 auto;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #dadpara{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+}

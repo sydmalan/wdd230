@@ -1,20 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&family=Prata&display=swap');
+
 body{
     background-color: rgb(179, 209, 204);
+    text-align:center;
 }
 #content{
     background-color: white;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
     max-width: 1200px;
     border-radius: 8px;
+    /* display:grid;
+    grid-template-columns: 1fr; */
 }
 
-#site_info{
-    width: 80%;
+#logo{
+    width:200px;
+    margin-top: -15px;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1em;
+    line-height: 23px;
+}
+
+nav ul{
+    padding-inline-start: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
     margin: 0 auto;
+    background-color: rgb(101, 138, 132);
+    border-radius: 6px;
+    padding:20px 10px 20px 10px;
+
+}
+
+nav li{
+    font-family: Gothic, sans-serif;
+    line-height: 40px;
+    font-size: 1.2em;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+nav li:hover{
+    background-color:#e4b89b;
+    border-radius: 6px;
+    padding:0 15px 0 15px;
+}
+
+
+nav a:active{
+    color:black;
+}
+
+h2{
+    font-family: Prata, serif;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: Gothic, sans-serif;
+    font-weight: 400;
+}
+
+#gothic{
+    font-family: Gothic, sans-serif;
+    font-weight: 400; 
 }
 
 img{
-    width:200px;
+    padding: 20px;
+    width: 250px;
+
+}
+
+ol li{
+    text-align: center;
+    list-style-position: inside;
+    font-family: Gothic, sans-serif;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+#purpose{
+    width:80%;
+    margin: 0 auto;
+    line-height: 23px;
+}
+
+
+#primcolor{
+    background-color: #96BBD8;
+    padding:10px;
+
+}
+#seccolor{
+    background-color: #FFF0D8;
+    padding:10px;
+}
+#acc1color{
+    background-color: #000000;
+    color:white;
+    padding:10px;
+}
+#acc2color{
+    background-color: #D86B56;
+    padding:10px;
+}
+#acc3color{
+    background-color: #733A32;
+    padding:10px;
+}
+
+
+
+#site_info{
+    margin-bottom: 85px;
+}
+#target-audience{
+    margin-bottom: 85px;
+}
+#color-scheme{
+    margin-bottom: 85px;
+}
+#typography{
+    margin-bottom: 85px;
+}
+
+.small{
+    font-size: .9em;
+    margin-top: 40px;
+    padding-bottom:20px;
+}
+
+
+
+footer {
+    background-color: rgb(101, 138, 132);
+    margin: 0 auto;
+    width: 90%;
+    padding: 5px 0 5px 0;
+    border-radius: 6px;
+    line-height: 5px;
+    color:white;
 }
