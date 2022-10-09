@@ -1,0 +1,35 @@
+you will be targeting the button using java script 
+
+you can have a class in css that will target the button using js that isn't assigned to 
+anything in HTML, so you will assign it using JS 
+
+css:
+.newstyle{
+    background-color: red;
+}
+
+if you want something to disapear when clicked:
+.newstyle{
+    display:none;  (you then use the toggle in JS)
+}
+
+js:
+let button = documnet.querySelector('.btn');
+let title = document.querySelector('h2'); (if you want to target the h2)
+
+toggle will add it and take it away - lets it move 
+function show() {
+    button.classList.toggle('newstyle');
+}
+
+this is listening for a click 
+button.addEventListener('click', show);
+
+(shorter syntax for formatted date) DATE:
+
+const date_now = new Date();
+const full_date = new Intl.DateTimeFormat('en-us', {dateStyle: 'full'}).format(date._now);
+
+
+LARGE DISPLAY:
+it will all be display block 
