@@ -16,7 +16,6 @@ nav button{
 
 nav ul{
     list-style-type: none;
-    padding: 0;
     margin: 0;
 }
 
@@ -26,7 +25,7 @@ nav ul li a{
     padding: .8rem 2vw;
     text-decoration: none;
     color: #333;
-    border-top: 1px solid rgba(0,0,0,0.5);
+    /* border-top: 1px solid rgba(0,0,0,0.5); */
 }
 
 nav ul li.active a{
@@ -102,8 +101,12 @@ img{
 }
 
 .social{
-    width:30px;
+    width:25px;
     align-self: center;
+}
+
+#name{
+    margin-top: -15px;
 }
 
 
