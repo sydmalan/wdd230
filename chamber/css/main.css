@@ -44,11 +44,27 @@ nav ul.open{
     display:block;
 }
 
+
+
 #hambutton span:nth-child(1){display:block;}
 #hambutton span:nth-child(2){display:none;}
 
 #hambutton.open span:nth-child(1){display:none;}
 #hambutton.open span:nth-child(2){display:block;}
+
+header{
+    background-color: #FFF0D8;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+    align-content: center;
+}
+
+
+
 
 #main-grid{
     display: grid;
@@ -87,13 +103,7 @@ h2{
     font-size: 18px;
 }
 
-header{
-    background-color: #FFF0D8;
-    padding: 5px 0px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
 
 img{
     width:60px;
