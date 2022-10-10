@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&family=Prata&display=swap');
 
 #content {
-    padding: 0px;
     margin: 0px;
     font-family: Gothic, sans-serif;
     color: black;
-}
-
-nav{
-    /* background-color: aqua; */
 }
 
 nav button{
@@ -24,7 +19,6 @@ nav ul{
     padding: 0;
     margin: 0;
 }
-
 
 
 nav ul li a{
@@ -103,7 +97,8 @@ header{
 }
 
 img{
-    width:80px;
+    width:60px;
+    align-self: center;
 }
 
 .social{
