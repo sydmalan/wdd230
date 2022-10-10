@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&family=Prata&display=swap');
+
+#content {
+    padding: 0;
+    margin: 0;
+    font-family: Gothic, sans-serif;
+    color: black;
+}
+
+nav{
+    /* background-color: aqua; */
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border:none;
+    font-size: 2rem;
+    color: #555 ;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display:block;
+}
+
+#hambutton span:nth-child(1){display:block;}
+#hambutton span:nth-child(2){display:none;}
+
+#hambutton.open span:nth-child(1){display:none;}
+#hambutton.open span:nth-child(2){display:block;}
+
+#main-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:10px;
+}
+
+.box {
+    min-height: 200px;
+    background-color: #96BBD8;
+    border: 1px solid #333333;
+    margin: 8px;
+    padding: 20px;
+}
+
+#all_spotlights{
+    background-color: #96BBD8;
+    border: 1px solid #333333;
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#spotlight3{
+    display:none;
+}
+
+#join{
+    display:none;
+}
+
+
+h2{
+    font-family: Prata, serif;
+    font-size: 18px;
+}
+
+header{
+    background-color: #FFF0D8;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img{
+    width:80px;
+}
+
+.social{
+    width:30px;
+    align-self: center;
+}
+
+
+
+footer{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 10px;
+    background-color: #FFF0D8;
+    font-size: 15px;
+    padding: 8px;
+    padding-top: 18px;
+}
+
+#project_info{
+    border-top: 1px solid rgba(0,0,0,0.5);
+    margin-top:20px;
+    font-size: 12px;
+}

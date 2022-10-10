@@ -9,39 +9,78 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
-    <script refer src="js/main.js"></script>
+    <script defer src="js/main.js"></script>
     <title>Ogden Chamber of Commerce</title>
 </head>
 <body id="content">
     <header>
 <!-- header must contain a logo, site name, and navigation (nav), spanning the entire screen -->
-
-
+        <nav>
+        <button id="hambutton"><span>&#9776;</span><span>x</span></button>
+            <ul id="primarynav"> 
+                <li class="active"> <a href='#' onclick="toggleMenu()">Discover</a></li>
+                <li> <a href='#'>Directory</a></li>
+                <li> <a href='#'>Join</a></li>
+                <li> <a href='#'>Contact</a></li>
+            </ul>
+        </nav>
+        <pictures>
+            <img id="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
+        </pictures>
+        <section>
+            <h1>Ogden City</h1>
+            <p>Chamber of Commerce</p>
+        </section>
+        <img id="facebook" class='social' src="images/facebook.png" alt="The blue Facebook logo.">
+        <img id="linkedin" class='social' src="images/linkedin.png" alt="The blue LinkedIn logo.">
+        <div id="current-date"></div>
     </header>
+
     <main>
-        <div id="hero">
-            <p>test</p>
-
-        </div>
-        <div id="event">
-
-        </div>
-        <div id="weather">
-
-        </div>
-        <div id="new_release">
-
-        </div>
-        <div id="spotlight1">
-
-        </div>
-        <div id="spotlight2">
-
+        <div id="main-grid">
+            <div id="hero" class="box">
+                <h2>Hero with site name and call to action</h2>
+            </div>
+            <div id="event" class="box">
+                <h2>Event</h2>
+            </div>
+            <div id="weather" class="box">
+                <h2>Weather</h2>
+            </div>
+            <div id="news_release" class="box">
+                <h2>News Release</h2>
+            </div>
+            <div id="join" class="box">
+                <h2>Join</h2>
+            </div>
+            <div id="all_spotlights">
+                <div id="spotlight1" class="box">
+                    <h2>Spotlight 1</h2>
+                </div>
+                <div id="spotlight2" class="box">
+                    <h2>Spotlight 2</h2>
+                </div>
+                <div id="spotlight3" class="box">
+                    <h2>Spotlight 3</h2>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-
+        <img id="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
+        <h3>Ogden City Chamber of Commerce</h3>
+        <p>2380 Washington Blvd #290, Ogden, UT 84401</p>
+        <p>info@ogdencitychamber.org</p>
+        <p>+1 (801) - 893 - 4920</p>
+        <a href='https://www.google.com/maps/dir//ogden+utah+chamber+of+commerce/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87530edf1a15e05d:0xbe9a76083e682fd5?sa=X&ved=2ahUKEwilxsyrw9X6AhWyL0QIHW0kCUIQ9Rd6BAhcEAU'>Location Map</a>
+        <div id="project_info">
+            <p class="year_name">&copy;<span class="year"></span> Ogden City Chamber</p>
+            <p>Sydnee Malan - Utah</p>
+            <p>WDD 230 Project</p>
+            <p class="updated_info">Last Updated: <span class="updated"></span></p>
+        </div>
     </footer>
     
 </body>
 </html>
+
