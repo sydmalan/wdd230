@@ -33,3 +33,44 @@ const full_date = new Intl.DateTimeFormat('en-us', {dateStyle: 'full'}).format(d
 
 LARGE DISPLAY:
 it will all be display block 
+
+
+ADDING A HERO PIC AND BUTTON 
+
+create a parent container with an ID 
+then create a div in that div
+ex. <div id='parent-container'> 
+        <div id='child-overlay'>
+            <button>Click Me</button>
+        </div>
+    </div>
+
+    css:
+    #parent-container{
+        position: relative;
+    }
+    #child-overlay{
+        position: absolute;
+        //once you say absolue you can say exactly where you want it to go
+        right: 50px;
+        left: 50px;
+    }
+
+    (if the button goes behind the parent, then use the z-index to fix it)
+
+adding a favicon to your site (the icon that shows up in the browser)
+    put the image at the root at your project folder (same level as the index) 
+    then put the link in the head
+        <link rel="shortcut icon" href="favicon.ico">
+    you have to call/name it favicon 
+
+
+
+have a message that will only show on mondays and tuesdays:
+
+css - have it be initially display: none
+js - you want an if statment and need a date object (.getDay())
+    .getDay() will return 0 for Sunday, 1 for Monday, 2 for Tuesday, etc. 
+
+    if getDay() is 1 or 2 then change dispaly to block 
+        show on wewbpage: do a setAttribute to a new class or .styleDisplay:block 
