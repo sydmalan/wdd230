@@ -71,7 +71,7 @@ nav{
 #social {
     grid-column: 7/8;
 }
-#social img {
+#social{
     width: 2em;
     padding: 5px;
 }
@@ -262,15 +262,18 @@ footer{
 
 #hero{
     position: relative;
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#hero-img{
-    height: auto;
-    height: 100px;
-    object-fit: cover;
+/* #hero-img{
+    width: 50px;
+    object-fit: contain;
     overflow: hidden;
-    grid-column: 2/3;
-}
+} */
+
+
 
 #hero-title{
     position: absolute;
