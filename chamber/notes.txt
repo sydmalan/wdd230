@@ -74,3 +74,17 @@ js - you want an if statment and need a date object (.getDay())
 
     if getDay() is 1 or 2 then change display to block 
         show on wewbpage: do a setAttribute to a new class or .styleDisplay:block 
+
+
+
+
+WEEK 6 NOTES
+
+DON'T USE BITMAP
+good for images: jpg (good cause it can be compressed, but once it's compressed the info is lost and it can't be reversed)
+                png (you can have transparency)
+                svg (uses math so it will never get pixelated - scalable vector graphic)
+                webp 
+cloudconvert.com
+convertio.co
+    both of these sites can be used to convert files 
