@@ -72,5 +72,5 @@ css - have it be initially display: none
 js - you want an if statment and need a date object (.getDay())
     .getDay() will return 0 for Sunday, 1 for Monday, 2 for Tuesday, etc. 
 
-    if getDay() is 1 or 2 then change dispaly to block 
+    if getDay() is 1 or 2 then change display to block 
         show on wewbpage: do a setAttribute to a new class or .styleDisplay:block 

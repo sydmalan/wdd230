@@ -4,9 +4,10 @@
     margin: 0px;
     font-family: Gothic, sans-serif;
     color: black;
+    background-color: #FFF0D8;
 }
 
-nav button{
+/* nav button{
     margin: .2rem 2vw;
     background-color: transparent;
     border:none;
@@ -26,7 +27,7 @@ nav ul li a{
     text-decoration: none;
     color: #333;
     /* border-top: 1px solid rgba(0,0,0,0.5); */
-}
+/* }
 
 nav ul li.active a{
     background-color: rgba(0,0,0,0.2);
@@ -47,8 +48,7 @@ nav ul.open{
 
 nav ul li a{
     width:90%;
-}
-
+} 
 
 #hambutton span:nth-child(1){display:block;}
 #hambutton span:nth-child(2){display:none;}
@@ -57,7 +57,6 @@ nav ul li a{
 #hambutton.open span:nth-child(2){display:block;}
 
 nav{
-    background-color: #FFF0D8;
     padding: 5px 0px;
     display: flex;
     justify-content: space-evenly;
@@ -65,10 +64,120 @@ nav{
     row-gap: 10px;
     column-gap: 2em;
     align-content: center;
+}  */
+
+
+#logo {
+    width: 100%;
+    grid-column: 2/3;
+    /* margin-left: 20px; */
+}
+#social {
+    grid-column: 7/8;
+}
+#social img {
+    width: 2em;
+    padding: 5px;
+}
+nav {
+    /* background-color:  #309981; */
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* position: fixed; 
+    top: 30px;
+    z-index: 1; */
+}
+nav span{
+    font-size: 1.5em;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+nav li {
+    padding: 15px;
+    display: none;
+    width: 200px;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    
+}
+nav li a:first-child {
+   
+    color: black;
+}
+nav li:hover {
+    background-color: #f1998c;
+}
+nav li:hover:first-child {
+    width: 40px;
+}
+nav li a:hover {
+    color: black;
+}
+nav li:first-child {
+    display: block;
+}
+.responsive li {
+    display: block;
+    background-color: #d86b56;
+}
+.responsive li a {
+    width: 200px;
+}
+.ham {
+    text-align: center;
+    
+}
+.ham span {
+    background-color:#D86B56;
+    border: 1px solid black;
+    width: 38px;
+}
+.ham span:nth-child(1) {
+    display: block;
+}
+.ham span:nth-child(2) {
+    display: none;
+}
+.ham.responsive span:nth-child(1) {
+    display: none;
+}
+.ham.responsive span:nth-child(2) {
+    display: block;
+}
+#top {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+}
+#top header {
+    width: 80%;
+    grid-column: 3/7;
 }
 
 
+#day_announcement{
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+    margin-top: 10px;
+    line-height: 25px;
+}
 
+#current-date{
+    text-align: center;
+    background-color: white;
+    padding:6px;
+}
 
 #main-grid{
     display: grid;
@@ -105,8 +214,8 @@ nav{
 h2{
     font-family: Prata, serif;
     font-size: 18px;
+    text-align: center;
 }
-
 
 
 img{
@@ -125,18 +234,73 @@ img{
 
 
 footer{
+    /* grid-template-columns: 1fr 1fr; */
     width:100%;
     margin: 0 auto;
     text-align: center;
     line-height: 10px;
-    background-color: #FFF0D8;
     font-size: 15px;
     padding: 8px;
     padding-top: 18px;
+    background-color: white;
 }
 
-#project_info{
+/* #project_info{
+    grid-column: 1/2;
+} */
+
+#student_info{
     border-top: 1px solid rgba(0,0,0,0.5);
     margin-top:20px;
     font-size: 12px;
+    /* grid-column: 2/3; */
+}
+
+#hero{
+    position: relative;
+}
+
+#hero-img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+#hero-title{
+    position: absolute;
+    left: 45px;
+    top: 50px;
+    background-color: #FFFFFFb1;
+    padding: 5px;
+    max-width: 80%;
+    /* box-shadow: 0px 0px 10px #FFFFFF; */
+    border-radius: 2px;
+}
+
+#hero-btn button{
+    position: absolute;
+    padding: 10px;
+    background-color: #D86B56;
+    color:white;
+    top: 160px;
+    left: 130px;
+}
+
+p{
+    text-align: center;
+}
+
+h3{
+    text-align: center;  
+}
+
+#join-btn{
+    padding: 15px 30px 15px 30px;
+    background-color: #D86B56;
+    color:white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
