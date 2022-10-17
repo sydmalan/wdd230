@@ -102,6 +102,21 @@ nav li {
 }
 
 
+#hero-title{
+  position: absolute;
+  left: 150px;
+  top: 100px;
+
+}
+
+#hero-btn button{
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  font-size: 20px;
+  padding: 20px;
+}
+
 
 
 }
