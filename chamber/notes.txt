@@ -88,3 +88,7 @@ good for images: jpg (good cause it can be compressed, but once it's compressed 
 cloudconvert.com
 convertio.co
     both of these sites can be used to convert files 
+
+optimize and then compress the image: (or do it all on photoshop) 
+optimize images: picresize.com 
+compress it: tinypng.com
