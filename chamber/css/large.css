@@ -117,6 +117,10 @@ nav li {
   padding: 20px;
 }
 
+.logo{
+  grid-column: 1/2;
+}
+
 
 
 }
