@@ -92,3 +92,34 @@ convertio.co
 optimize and then compress the image: (or do it all on photoshop) 
 optimize images: picresize.com 
 compress it: tinypng.com
+
+
+3 different hero images:
+    add small, medium, and large on the image in photoshop (keep the originals)
+    img 900, img 700, img 400 - thats the different sizes you'll want 
+
+
+<header>
+    <section id="day_announcement">
+        <h2>
+            <span id="message1"></span>
+        </h2>
+    </section>
+    <nav>
+    <button id="hambutton"><span>&#9776;</span><span>x</span></button>
+        <img class="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
+        <section>
+            <h1>Ogden City</h1>
+            <p id="name">Chamber of Commerce</p>
+        </section>
+        <img id="facebook" class='social' src="images/facebook.png" alt="The blue Facebook logo.">
+        <img id="linkedin" class='social' src="images/linkedin.png" alt="The blue LinkedIn logo.">
+        <div id="current-date"></div>
+            <ul id="primarynav"> 
+                <li class="active"> <a href='#' onclick="toggleMenu()">Discover</a></li>
+                <li> <a href='#'>Directory</a></li>
+                <li> <a href='#'>Join</a></li>
+                <li> <a href='#'>Contact</a></li>
+            </ul>
+    </nav>
+</header>

@@ -69,3 +69,4 @@ document.querySelector('.year').textContent = year;
 //shows the date the site was last modified 
 let currentdate = document.lastModified;
 document.querySelector('.updated').textContent = currentdate;
+
