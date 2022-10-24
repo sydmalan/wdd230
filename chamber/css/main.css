@@ -262,7 +262,8 @@ footer{
 
 #hero{
     position: relative;
-    background-image: url(../images/ogdenfinal.jpg);
+    /* background-image: url(../images/ogdenfinal.jpg); */
+    background-image: url(../images/ogden-img-400.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

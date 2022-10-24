@@ -26,6 +26,14 @@ nav ul li a{
 }
 
 
+#hero{
+    position: relative;
+    /* background-image: url(../images/ogdenfinal.jpg); */
+    background-image: url(../images/ogden-img-700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 #hero{
     grid-column: 1/3;
