@@ -181,19 +181,25 @@ nav li:first-child {
     margin:10px;
 }
 
+.box_pad{
+    padding-left:15px;
+    padding-right: 15px;
+}
+
 .box {
     min-height: 200px;
     background-color: #96BBD8;
     border: 1px solid #333333;
     margin: 8px;
-    padding: 20px;
+    
 }
+
 
 #all_spotlights{
     background-color: #96BBD8;
     border: 1px solid #333333;
     margin: 5px;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -261,43 +267,49 @@ footer{
 }
 
 #hero{
-    position: relative;
-    /* background-image: url(../images/ogdenfinal.jpg); */
+    /* position: relative;
+    background-image: url(../images/ogdenfinal.jpg);
     background-image: url(../images/ogden-img-400.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+}
+
+picture img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
 }
 
 /* #hero-img{
-    width: 50px;
-    object-fit: contain;
-    overflow: hidden;
+    width:100%;
+    height:100%;
 } */
 
 
 
 #hero-title{
     position: absolute;
-    left: 33px;
-    top: 50px;
+    left: 45px;
+    top: 330px;
     background-color: #FFFFFFb1;
     padding: 5px;
-    max-width: 80%;
+    max-width: 90%;
     /* box-shadow: 0px 0px 10px #FFFFFF; */
     border-radius: 2px;
 }
 
-#hero-btn button{
+#hero-btn{
     position: absolute;
     padding: 10px;
     background-color: #733A32;
     color:white;
-    top: 160px;
-    left: 110px;
+    top: 450px;
+    left: 115px;
 }
 
 p{
     text-align: center;
+    
 }
 
 h3{

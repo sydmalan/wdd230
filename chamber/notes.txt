@@ -99,27 +99,16 @@ compress it: tinypng.com
     img 900, img 700, img 400 - thats the different sizes you'll want 
 
 
-<header>
-    <section id="day_announcement">
-        <h2>
-            <span id="message1"></span>
-        </h2>
-    </section>
-    <nav>
-    <button id="hambutton"><span>&#9776;</span><span>x</span></button>
-        <img class="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
-        <section>
-            <h1>Ogden City</h1>
-            <p id="name">Chamber of Commerce</p>
-        </section>
-        <img id="facebook" class='social' src="images/facebook.png" alt="The blue Facebook logo.">
-        <img id="linkedin" class='social' src="images/linkedin.png" alt="The blue LinkedIn logo.">
-        <div id="current-date"></div>
-            <ul id="primarynav"> 
-                <li class="active"> <a href='#' onclick="toggleMenu()">Discover</a></li>
-                <li> <a href='#'>Directory</a></li>
-                <li> <a href='#'>Join</a></li>
-                <li> <a href='#'>Contact</a></li>
-            </ul>
-    </nav>
-</header>
+WEEK 7 
+to find the days since visited:
+    let current = Date.now();
+(pull from local storage)
+    let previous = ....
+then you will subtract the two 
+    let difference = current - previous 
+    let diffdays = math.floor(difference/1000/60/60/24);
+        (this will tell you the difference in days instead of seconds)
+
+
+
+    

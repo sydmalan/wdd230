@@ -49,28 +49,25 @@
 
     <main>
         <div id="main-grid">
-            <div id="hero" class="box">
+            <section id="hero" class="box">
+                <picture id="hero-img">
+                    <source srcset="images/ogden-img-700.jpg" media="(min-width:500px) and 
+                        (max-width: 999px)">
+                    <source srcset="images/ogden-img-900.jpg" media="(min-width:1000px)">
+                    <img src="images/ogden-img-400.jpg" alt="Downtown of Ogden, Utah showing mountains, cars, and buildings.">
+                </picture>
                 <!-- <h2>Hero with site name and call to action</h2> -->
                 <!-- <img id="hero_img" src="images/hero-image.jpg" alt="An image of downtown Odgen, Ut."> -->
-                <div id="hero-title">
-                    <h1>Welcome to Ogden!</h1>
-                </div>
-                <!-- <picture>
-                        <source srcset="images/ogden-img-700.jpg" media="(min-width:500px) and 
-                        (max-width: 799px)">
-                            <source srcset="images/ogden-img-900.jpg" media="(min-width:800px)">
-                    <img src="images/ogden-img-400.jpg" alt="Downtown of Ogden, Utah.">
-                </picture> -->
-                <div id="hero-btn">
-                    <button>Join the Chamber</button>
-                </div>
-            </div>
-            <div id="event" class="box">
+                <h1 id="hero-title">Welcome to Ogden!</h1>
+                <button id="hero-btn">Join the Chamber</button>
+            </section>
+
+            <div id="event" class="box box_pad">
                 <h2>Farmer's Market</h2>
                 <p>Farmers Market Ogden's summer season is BACK on Historic 25th Street! Join us for 16 weeks of supporting local produce, artisan, grocery and prepared food vendors.</p>
                 <p>Farmers Market Ogden will run Saturdays, May 28 through September 10, from 8 a.m. to 1 p.m.</p>
             </div>
-            <div id="weather" class="box">
+            <div id="weather" class="box box_pad">
                 <h2>Weather</h2>
                 <p>Temperature</p>
                 <!-- <p>Low: 47° | High: 71°</p>
@@ -81,31 +78,31 @@
                 <p>Wind Speed: <span id='ws'>5</span> MPH</p>
                 <p>Wind Chill: <span id='wc'>N/A</span></p>
             </div>
-            <div id="news_release" class="box">
+            <div id="news_release" class="box box_pad">
                 <h2>News Release</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra orci sagittis eu volutpat odio facilisis. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Dolor sed viverra ipsum nunc. Velit dignissim sodales ut eu sem integer vitae. Lacinia quis vel eros donec. Quis commodo odio aenean sed adipiscing. Dui id ornare arcu odio ut sem nulla.</p>
             </div>
-            <div id="join" class="box">
+            <div id="join" class="box box_pad">
                 <!-- <h2>Join</h2> -->
                 <button id="join-btn">Join Us!</button>
                 <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
             </div>
             <div id="all_spotlights">
-                <div id="spotlight1" class="box">
+                <div id="spotlight1" class="box box_pad">
                     <h2>Witchstock Festival</h2>
                     <h3>October 22nd</h3>
                     <p>4-10 PM</p>
                     <p>Ogden Amphitheater
                     343 E 25th St, Ogden, UT</p>
                 </div>
-                <div id="spotlight2" class="box">
+                <div id="spotlight2" class="box box_pad">
                     <h2>Midnight Runners Trunk-or-Treat</h2>
                     <h3>October 22nd</h3>
                     <p>5-8 PM</p>
                     <p>Adventure Marine
                     2785 Industrial Dr, Ogden, UT</p>
                 </div>
-                <div id="spotlight3" class="box">
+                <div id="spotlight3" class="box box_pad">
                     <h2>Silversmithing Workshop</h2>
                     <h3>October 22nd</h3>
                     <p>1:30-4 PM</p>

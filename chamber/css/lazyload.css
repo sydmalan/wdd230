@@ -1,0 +1,6 @@
+picture img{
+    /* Making sure it's centered with some breathing room */
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
