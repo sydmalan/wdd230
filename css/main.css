@@ -21,7 +21,7 @@ body{
     background-color: white;
     border-style: outset;
     border-radius: 8px;
-    padding: 45px;
+    padding: 38px;
 }
 
 /*header {
@@ -86,7 +86,7 @@ footer{
     margin-top: 35px;
     text-align: center;
     font-family: Poppins;
-    margin-bottom: -30px;
+    margin-bottom: -35px;
 }
 
 .year_name{
@@ -95,5 +95,5 @@ footer{
 
 .updated_info{
     font-size: 12px;
-    margin-top: -12px;
+    margin-top: -10px;
 }
