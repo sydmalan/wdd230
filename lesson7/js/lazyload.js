@@ -1,4 +1,4 @@
-// querySelector('img') won't get all of the images, it only gets one 
+ // querySelector('img') won't get all of the images, it only gets one 
 // const image = document.querySelector('img');
 // so you need to call ALL of the images
 const image = document.querySelectorAll('img');
@@ -25,7 +25,9 @@ const image = document.querySelectorAll('img');
 // you can target specific images using square brackets 
 const pimages = document.querySelectorAll('[data-src]');
 const options = {
+    // this changes the elements percentage 
     threshold: 1,
+    // this changes the entire pages bounding box, you don't need root margin 
     rootMargin: '0px 0px 100px 0px'
 }
 
@@ -56,3 +58,31 @@ const io = new IntersectionObserver (
 pimages.forEach(image => {
     io.observe(image);
 })
+
+// localStorage
+// this is the ('key', 'value))
+// localStorage.setItem('msg1', 'Hello Permanent');
+// sessionStorage.setItem('msg2', 'Hi Temporary');
+localStorage.setItem('visitDate', Date.now());
+let visitDate = localStorage.getItem('visitDate');
+
+// this is how we get it back, you just reference back the key value 
+// localStorage.getItem('msg1')
+
+
+// Days since last visit
+if (!localStorage.getItem('lastvisit')){
+    localStorage.setItem('lastvisit', Date.now());
+    document.getElementById('diff').textContent = 'This is your 1st visit';
+}else{
+    let prevDate = localStorage.getItem('lastvisit');
+    let currDate = Date.now();
+
+    let difference = currDate - prevDate
+    console.log(difference);
+    let daysDifference = Math.floor(difference/1000/60/60/24);
+
+    document.getElementById('diff').textContent = daysDifference;
+    localStorage.setItem('lastvisit', Date.now());
+
+}

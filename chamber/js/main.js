@@ -70,3 +70,9 @@ document.querySelector('.year').textContent = year;
 let currentdate = document.lastModified;
 document.querySelector('.updated').textContent = currentdate;
 
+
+// localStorage
+
+localStorage.setItem('msg1', 'Hello Permanent');
+
+sessionStorage.setItem('msg2', 'Hi Temporary');

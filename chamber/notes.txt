@@ -99,7 +99,7 @@ compress it: tinypng.com
     img 900, img 700, img 400 - thats the different sizes you'll want 
 
 
-WEEK 7 
+WEEK 7 (LOCAL STORAGE)
 to find the days since visited:
     let current = Date.now();
 (pull from local storage)
@@ -110,5 +110,12 @@ then you will subtract the two
         (this will tell you the difference in days instead of seconds)
 
 
-
-    
+ex. (if they don't have anything in there then set the item)
+if (!something in local storage){
+    set localStorage to todays date 
+    'This is your first visit'
+} else{
+    get the local storage value (calling a function)
+    subtract the two dates - today and the previous date (/1000/60/60/24) (calling a function)
+    set the new date in local storage 
+}
