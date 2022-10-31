@@ -5,8 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber Discover</title>
+    <link href="../css/normalize.css" rel="stylesheet" >
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <script defer src="js/main.js"></script>
 </head>
-<body>
-    <h1>Discover</h1>
+<body id="discover_content">
+    <div id="top">
+        <img class="logo" src="images/ogdenlogo.webp" alt="A logo for Ogden City, UT. It has mountains and their name.">
+        <header>
+                <h1>Ogden City</h1>
+                <p id="name">Chamber of Commerce</p>
+        </header>
+        <nav class="navigation">
+            <!-- <button id="hambutton"><span>&#9776;</span><span>x</span></button> -->
+            <ul id="primarynav"> 
+                <li> <a class='ham' href='#'><span>&#9776;</span><span>x</span></a></li>
+                <li> <a href='https://sydmalan.github.io/wdd230/chamber/index.html'>Home</a></li>
+                <li> <a href='#'>Directory</a></li>
+                <li> <a href='#'>Join</a></li>
+                <li> <a href='#'>Contact</a></li>
+            </ul>
+        </nav>
+        <div id="social">
+            <img id="facebook" class='social' src="images/facebook.png" alt="The blue Facebook logo.">
+            <img id="linkedin" class='social' src="images/linkedin.png" alt="The blue LinkedIn logo.">
+        </div>
+    </div>
+    <div id="current-date"></div>
+    <div id="day_announcement">
+        <span id="message1"></span>
+    </div>
+
+    <main>
+        <h1>Discover Ogden!</h1>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/bike.jpg" alt="Ogden Bike Track">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/dino.jpg" alt="Ogden Dinosaur Museum">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/gardens.jpg" alt="Ogden Botannical Gardens">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/HABM.jpg" alt="Hill Air Force Base Museum">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/naturecenter.jpg" alt="Ogden Nature Center">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/river.jpg" alt="Ogden River">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/street.jpg" alt="Historical Ogden 25th Street">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/union.jpg" alt="Ogden Union Station">
+        </picture>
+        <picture>
+            <img class="discover_img" src="https://dummyimage.com/300x400/ccc/fff" data-src="images/waterfall.jpg" alt="Ogden Waterfall Hike">
+        </picture>
+        
+        <h1 id="datevisit">Days since last visit: <span id="diff"></span></h1>
+    </main>
+
+    <footer>
+        <div id="project_info">
+            <img class="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
+            <h3>Ogden City Chamber of Commerce</h3>
+            <p>2380 Washington Blvd #290, Ogden, UT 84401</p>
+            <p>info@ogdencitychamber.org</p>
+            <p>+1 (801) - 893 - 4920</p>
+            <a id='location' href='https://www.google.com/maps/dir//ogden+utah+chamber+of+commerce/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87530edf1a15e05d:0xbe9a76083e682fd5?sa=X&ved=2ahUKEwilxsyrw9X6AhWyL0QIHW0kCUIQ9Rd6BAhcEAU'>&#128205;Location Map</a>
+        </div>
+        <div id="student_info">
+            <p class="year_name">&copy;<span class="year"></span> Ogden City Chamber</p>
+            <p>Sydnee Malan - Utah</p>
+            <p>WDD 230 Project</p>
+            <p class="updated_info">Last Updated: <span class="updated"></span></p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -5,6 +5,7 @@
     font-family: Gothic, sans-serif;
     color: black;
     background-color: #FFF0D8;
+    text-align: center;
 }
 
 /* nav button{
@@ -186,12 +187,11 @@ nav li:first-child {
     padding-right: 15px;
 }
 
-.box {
+.box{
     min-height: 200px;
     background-color: #96BBD8;
     border: 1px solid #333333;
-    margin: 8px;
-    
+    margin: 8px; 
 }
 
 
@@ -266,24 +266,12 @@ footer{
     /* grid-column: 2/3; */
 }
 
-#hero{
-    /* position: relative;
-    background-image: url(../images/ogdenfinal.jpg);
-    background-image: url(../images/ogden-img-400.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
 
 picture img{
     object-fit:cover;
     width:100%;
     height:100%;
 }
-
-/* #hero-img{
-    width:100%;
-    height:100%;
-} */
 
 
 
@@ -329,3 +317,28 @@ h3{
 #location{
     text-decoration: none;
 }
+
+
+
+/* DISCOVER */
+#discover_content {
+    margin: 0px;
+    font-family: Gothic, sans-serif;
+    color: black;
+    background-color: #FFF0D8;
+    text-align: center;
+}
+
+#datevisit{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.discover_img{
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 95%;
+}
+

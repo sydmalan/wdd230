@@ -97,12 +97,31 @@ picture img{
     left: 80px;
     top: 300px;
   
-  }
+}
   
-  #hero-btn{
+#hero-btn{
     position: absolute;
     top: 318px;
     left: 460px;
-  }
+}
+
+/* Discover */
+#discover_content {
+    margin: 0px;
+    font-family: Gothic, sans-serif;
+    color: black;
+    background-color: #FFF0D8;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.disover_img{
+    display:grid;
+}
+
+picture img:hover {
+    box-shadow: 0 0 15px #333;
+}
+
 
 }

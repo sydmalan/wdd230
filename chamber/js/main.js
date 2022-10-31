@@ -71,8 +71,64 @@ let currentdate = document.lastModified;
 document.querySelector('.updated').textContent = currentdate;
 
 
+
+// LAZY LOAD and DAYS VISITED
+
+const pimages = document.querySelectorAll('[data-src]');
+const options = {
+    // this changes the elements percentage 
+    threshold: 1,
+    // this changes the entire pages bounding box, you don't need root margin 
+}
+
+function preloadImage(img){
+    const source = img.getAttribute('data-src');
+    if (!source) {
+        return;
+    }
+    img.src = source;
+}
+
+const io = new IntersectionObserver (
+    (entries, io) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else{
+                preloadImage(entry.target);
+                io.unobserve(entry.target);
+            }
+        })
+    },
+      //this determines how much of the image loads before the user sees it (50%)
+        // threshold: [.5]
+        options
+);
+
+pimages.forEach(image => {
+    io.observe(image);
+})
+
 // localStorage
+// this is the ('key', 'value))
+// localStorage.setItem('msg1', 'Hello Permanent');
+// sessionStorage.setItem('msg2', 'Hi Temporary');
+localStorage.setItem('visitDate', Date.now());
+let visitDate = localStorage.getItem('visitDate');
 
-localStorage.setItem('msg1', 'Hello Permanent');
+// Days since last visit
+if (!localStorage.getItem('lastvisit')){
+    localStorage.setItem('lastvisit', Date.now());
+    document.getElementById('diff').textContent = 'This is your 1st visit';
+}else{
+    let prevDate = localStorage.getItem('lastvisit');
+    let currDate = Date.now();
 
-sessionStorage.setItem('msg2', 'Hi Temporary');
+    let difference = currDate - prevDate
+    console.log(difference);
+    let daysDifference = Math.floor(difference/1000/60/60/24);
+
+    document.getElementById('diff').textContent = daysDifference;
+    localStorage.setItem('lastvisit', Date.now());
+
+}

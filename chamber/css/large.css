@@ -149,6 +149,22 @@ picture img{
   grid-column: 1/2;
 }
 
+/* Discover */
+#discover_content {
+  margin: 0px;
+  font-family: Gothic, sans-serif;
+  color: black;
+  background-color: #FFF0D8;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
+.disover_img{
+  display:grid;
+}
+
+figure img:hover {
+  box-shadow: 0 0 15px #333;
+}
 
 }
