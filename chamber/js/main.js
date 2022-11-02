@@ -77,9 +77,9 @@ document.querySelector('.updated').textContent = currentdate;
 const pimages = document.querySelectorAll('[data-src]');
 const options = {
     // this changes the elements percentage 
-    threshold: 1,
+    threshold: 1
     // this changes the entire pages bounding box, you don't need root margin 
-}
+};
 
 function preloadImage(img){
     const source = img.getAttribute('data-src');
@@ -87,7 +87,7 @@ function preloadImage(img){
         return;
     }
     img.src = source;
-}
+};
 
 const io = new IntersectionObserver (
     (entries, io) => {
@@ -98,7 +98,7 @@ const io = new IntersectionObserver (
                 preloadImage(entry.target);
                 io.unobserve(entry.target);
             }
-        })
+        });
     },
       //this determines how much of the image loads before the user sees it (50%)
         // threshold: [.5]
