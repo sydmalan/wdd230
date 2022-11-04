@@ -1,0 +1,26 @@
+/* tr:nth-child(odd){
+    background-color: rgb(233, 233, 233);
+} */
+
+thead th, tfoot td{
+    background-color: cornflowerblue;
+}
+
+td, th{
+    padding:10px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(3){
+    font-style: italic;
+}
+
+table{
+    width: 600px;
+    margin:0 auto;
+    text-align: center;
+}

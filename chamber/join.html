@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link href="../css/normalize.css" rel="stylesheet" >
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+</head>
+<body id="discover_content">
+    <div id="top">
+        <img class="logo" src="images/ogdenlogo.webp" alt="A logo for Ogden City, UT. It has mountains and their name.">
+        <header>
+                <h1>Ogden City</h1>
+                <p id="name">Chamber of Commerce</p>
+        </header>
+        <nav class="navigation">
+            <!-- <button id="hambutton"><span>&#9776;</span><span>x</span></button> -->
+            <ul id="primarynav"> 
+                <li> <a class='ham' href='#'><span>&#9776;</span><span>x</span></a></li>
+                <li> <a href='https://sydmalan.github.io/wdd230/chamber/index.html'>Home</a></li>
+                <li> <a href='#'>Directory</a></li>
+                <li> <a href='#'>Join</a></li>
+                <li> <a href='#'>Contact</a></li>
+            </ul>
+        </nav>
+        <div id="social">
+            <img id="facebook" class='social' src="images/facebook.png" alt="The blue Facebook logo.">
+            <img id="linkedin" class='social' src="images/linkedin.png" alt="The blue LinkedIn logo.">
+        </div>
+    </div>
+    <div id="current-date"></div>
+    <div id="day_announcement">
+        <span id="message1"></span>
+    </div>
+
+    <form action="get" action="thankyou.html">
+        <label for="fname">First Name:</label>
+        <input type="text" name="firstname" id="fname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" id="lname" required>
+
+        <label for="title">Business Position Title:</label>
+        <input type="text" name="title" id="title" required>
+    </form>
+
+    <table>
+        <thead>
+            <!-- this is used to set up your table rows and data
+            tr - table row 
+            td - table data  -->
+            <tr> 
+                <!-- this creates the first row -->
+                <th>WDD230 Assignments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Week 9</td>
+                <td>Tables</td>
+            </tr>
+            <tr>
+                <td>Forms</td>
+            </tr>
+            <tr>
+                <td>Week 10</td>
+                <td>API</td>
+            </tr>
+            <tr>
+                <td>Week 11</td>
+                <td>Weather App</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>A look at the next few weeks</td>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+
+
+    <footer>
+        <div id="project_info">
+            <img class="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
+            <h3>Ogden City Chamber of Commerce</h3>
+            <p>2380 Washington Blvd #290, Ogden, UT 84401</p>
+            <p>info@ogdencitychamber.org</p>
+            <p>+1 (801) - 893 - 4920</p>
+            <a id='location' href='https://www.google.com/maps/dir//ogden+utah+chamber+of+commerce/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x87530edf1a15e05d:0xbe9a76083e682fd5?sa=X&ved=2ahUKEwilxsyrw9X6AhWyL0QIHW0kCUIQ9Rd6BAhcEAU'>&#128205;Location Map</a>
+        </div>
+        <div id="student_info">
+            <p class="year_name">&copy;<span class="year"></span> Ogden City Chamber</p>
+            <p>Sydnee Malan - Utah</p>
+            <p>WDD 230 Project</p>
+            <p class="updated_info">Last Updated: <span class="updated"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
