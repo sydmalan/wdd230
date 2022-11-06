@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+
+</head>
+<body id="discover_content">
+
+    <!-- the id should always match the for -->
+    <form action="get" action="thankyou.html">
+        <label for="fname">First Name:</label>
+        <input type="text" name="firstname" id="fname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" id="lname" required>
+
+        <label for="title">Business Position Title:</label>
+        <p>(Only letters, spaces, and dashes and min of 7 characters)</p>
+        <input name="title" id="title" required pattern="[- A-Za-z]+" minlength="7">
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="phone">Mobile Number:</label>
+        <input type="tel" name="cell" id="phone" required>
+
+        <label id="member">Enter Your Membership:</label>
+        <div id="radio">
+            <div class="radio">
+                <input type="radio" id="one" name="mlevel" value="level1"
+                <label for="one">Non Profit</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="two" name="mlevel" value="level2"
+                <label for="two">Bronze</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="three" name="mlevel" value="level3"
+                <label for="three">Silver</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="four" name="mlevel" value="level4"
+                <label for="four">Gold</label>
+            </div>
+        </div>
+
+        <label for="message">Business Description:</label>
+        <textarea id="message" placeholder="Enter your business description here"></textarea>
+
+        <!-- the point of the name is just for backend coding  -->
+        <input id="date" type="hidden" name="todaydate">
+
+        <input type="submit" value="Join the Chamber">
+
+    </form>
+</body>
+</html>
