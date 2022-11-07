@@ -167,4 +167,19 @@ figure img:hover {
   box-shadow: 0 0 15px #333;
 }
 
+/* Form */
+
+#page_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#form{
+  grid-column: 1/2;
+}
+
+#membership{
+  grid-column: 2/3;
+}
+
 }

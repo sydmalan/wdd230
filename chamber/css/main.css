@@ -352,9 +352,25 @@ form{
 
 
 /* Form */
+#city_app{
+    text-align: center;
+    margin-top:50px;
+}
+
+#join_content{
+    font-family: Gothic, sans-serif;
+    color: black;
+    background-color: #FFF0D8;
+}
 
 form{
     margin: 40px;
+}
+
+form p{
+    text-align: left;
+    font-size: 12px;
+    margin-top: -1px;
 }
 
 form input:required{
@@ -371,8 +387,9 @@ label, input{
 }
 
 input{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-top: 5px;
+    padding:8px
 }
 
 textarea{
@@ -383,6 +400,45 @@ textarea{
     display: inline;
 }
 
+#message{
+    margin-top: 10px;
+}
+
 label{
     text-align: left;
+}
+
+#membership h2, h3{
+    text-align: left;
+}
+
+#membership {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+#submit{
+    width:45%;
+    display:block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#form { 
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 5%; */
+    /* padding: 5%; */
+    /* padding-bottom: 0; */
+    margin-top: 5px;
+
 }
