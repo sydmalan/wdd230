@@ -412,10 +412,10 @@ label{
     text-align: left;
 }
 
-#membership {
+/* #membership {
     margin-left: 80px;
     margin-bottom: 30px;
-}
+} */
 
 
 
@@ -441,4 +441,10 @@ label{
     /* padding-bottom: 0; */
     margin-top: 5px;
 
+}
+
+
+#page-content{
+    display:flex;
+    flex-wrap: wrap;
 }

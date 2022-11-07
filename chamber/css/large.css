@@ -182,9 +182,16 @@ figure img:hover {
   grid-column: 2/3;
 }
 
-#membership {
+/* #membership {
   margin-left: 500px;
   margin-bottom: 30px;
+} */
+
+
+#page-content{
+  display:flex;
+  flex-wrap: wrap;
 }
+
 
 }
