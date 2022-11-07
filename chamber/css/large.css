@@ -175,10 +175,12 @@ figure img:hover {
 }
 
 #form{
+  display: grid;
   grid-column: 1/2;
 }
 
 #membership{
+  display: grid;
   grid-column: 2/3;
 }
 
