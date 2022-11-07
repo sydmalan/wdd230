@@ -348,3 +348,41 @@ h3{
 form{
     padding: 30px;
 }
+
+
+
+/* Form */
+
+form{
+    margin: 40px;
+}
+
+form input:required{
+    border-left: red solid 6px;
+}
+
+form input:required:valid{
+    border-left: green solid 6px;
+}
+
+label, input{
+    display:block;
+
+}
+
+input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+textarea{
+    height: 150px;
+}
+
+#radio label, #radio input{
+    display: inline;
+}
+
+label{
+    text-align: left;
+}

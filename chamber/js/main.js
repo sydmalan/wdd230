@@ -71,6 +71,24 @@ let currentdate = document.lastModified;
 document.querySelector('.updated').textContent = currentdate;
 
 
+// Form Hidden Date
+const form_date = new Date();
+
+const month = Number(date.getMonth()) + 1;
+
+const dateTime =
+    month + ' / ' +
+    form_date.getDate() + ' / ' +
+    form_date.getFullYear() + ' ' +
+    form_date.getHours() + ' : ' +
+    form_date.getMinutes() + ' : ' +
+    form_date.getSeconds()
+;
+
+document.querySelector('#date').value = dateTime;
+console.log(dateTime);
+
+
 
 // LAZY LOAD and DAYS VISITED
 
@@ -109,6 +127,9 @@ pimages.forEach(image => {
     io.observe(image);
 })
 
+
+
+
 // localStorage
 // this is the ('key', 'value))
 // localStorage.setItem('msg1', 'Hello Permanent');
@@ -130,5 +151,24 @@ if (!localStorage.getItem('lastvisit')){
 
     document.getElementById('diff').textContent = daysDifference;
     localStorage.setItem('lastvisit', Date.now());
-
 }
+
+
+
+
+// form
+// const form_date = new Date();
+
+// const month = Number(date.getMonth()) + 1;
+
+// const dateTime =
+//     month + ' / ' +
+//     form_date.getDate() + ' / ' +
+//     form_date.getFullYear() + ' ' +
+//     form_date.getHours() + ' : ' +
+//     form_date.getMinutes() + ' : ' +
+//     form_date.getSeconds()
+// ;
+
+// document.querySelector('#date').value = dateTime;
+// console.log(dateTime);

@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join</title>
-    <!-- <link href="../css/normalize.css" rel="stylesheet" >
+    <link href="../css/normalize.css" rel="stylesheet" >
     <link href="css/main.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
-    <script defer src="js/main.js"></script> -->
+    <script defer src="js/main.js"></script>
 </head>
 <body id="discover_content">
-    <!-- <div id="top">
+    <div id="top">
         <img class="logo" src="images/ogdenlogo.webp" alt="A logo for Ogden City, UT. It has mountains and their name.">
         <header>
                 <h1>Ogden City</h1>
@@ -36,8 +36,9 @@
     <div id="current-date"></div>
     <div id="day_announcement">
         <span id="message1"></span>
-    </div> -->
+    </div>
 
+   <!-- the id should always match the for -->
     <form action="get" action="thankyou.html">
         <label for="fname">First Name:</label>
         <input type="text" name="firstname" id="fname" required>
@@ -45,7 +46,8 @@
         <label for="lname">Last Name:</label>
         <input type="text" name="lastname" id="lname" required>
 
-        <label for="title">Business Position Title (Only letters, spaces, and dashes and min of 7 characters):</label>
+        <label for="title">Business Position Title:</label>
+        <p>(Only letters, spaces, and dashes and min of 7 characters)</p>
         <input name="title" id="title" required pattern="[- A-Za-z]+" minlength="7">
         
         <label for="email">Email:</label>
@@ -54,11 +56,68 @@
         <label for="phone">Mobile Number:</label>
         <input type="tel" name="cell" id="phone" required>
 
-        <input type="submit" value="Join the Chamber"
+        <label id="member">Enter Your Membership:</label>
+        <div id="radio">
+            <div class="radio">
+                <input type="radio" id="one" name="mlevel" value="level1"
+                <label for="one">Non Profit</label>
+            </div>
 
+            <div class="radio">
+                <input type="radio" id="two" name="mlevel" value="level2"
+                <label for="two">Bronze</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="three" name="mlevel" value="level3"
+                <label for="three">Silver</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="four" name="mlevel" value="level4"
+                <label for="four">Gold</label>
+            </div>
+        </div>
+
+        <label for="message">Business Description:</label>
+        <textarea id="message" placeholder="Enter your business description here"></textarea>
+
+        <!-- the point of the name is just for backend coding  -->
+        <input id="date" type="hidden" name="todaydate">
+
+        <input type="submit" value="Join the Chamber">
     </form>
+    <div>
+        <h2>Membership levels benefits</h2>
+        <h3>NP Membership</h3>
+        <ul>
+            <li>For non profit organizations and there is no fee</li>
+        </ul>
+        <h3>Bronze Membership</h3>
+        <ul>
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+        </ul>
+        <h3>Silver Membership</h3>
+        <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+        </ul>
+        <h3>Gold Membership</h3>
+        <ul>
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+        </ul>
+    </div>
 
-    <!-- <footer>
+    <footer>
         <div id="project_info">
             <img class="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
             <h3>Ogden City Chamber of Commerce</h3>
@@ -73,6 +132,6 @@
             <p>WDD 230 Project</p>
             <p class="updated_info">Last Updated: <span class="updated"></span></p>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>
