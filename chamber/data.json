@@ -1,0 +1,88 @@
+{
+    "businesses": [
+      { 
+        "imageurl": "https://images.squarespace-cdn.com/content/v1/536c1538e4b039b3c8c733b5/6e0858d1-5359-4341-a1cf-b4e3ec9fa13e/colorful+banner+small+size.png?format=1500w",
+        "name": "Waffle Love",
+        "address": "109 25th St, Ogden, UT 84401",
+        "phone": "(385) 244-1169",
+        "website": "https://wafflelove.com/"
+      },
+      { 
+        "imageurl": "https://cdn.firespring.com/images/acaeb1b1-8be5-4ebd-bbea-609a134b3133.png",
+        "name": "Eccles Art Center",
+        "address": "2580 Jefferson Ave, Ogden, UT 84401",
+        "phone": "(801) 392-6935",
+        "website": "https://ogden4arts.org/"
+      },
+      { 
+        "imageurl": "https://cdn.saffire.com/images.ashx?t=ig&rid=EgyptianTheater&i=logo(2).png",
+        "name": "Peery's Egyptian Theater",
+        "address": "2415 Washington Blvd, Ogden, UT 84401",
+        "phone": "(801) 689-8700",
+        "website": "https://www.ogdenpet.com/"
+      },
+      { 
+        "imageurl": "https://www.ogdencity.com/ImageRepository/Document?documentID=21461",
+        "name": "Union Station",
+        "address": "Union Station, 2501 Wall Ave, Ogden, UT 84401",
+        "phone": "(801) 629-8680",
+        "website": "https://www.ogdencity.com/2277/Union-Station"
+      },
+      { 
+        "imageurl": "https://assets.eflorist.com/site/EF-14914/Logo/m5760125-logo.png",
+        "name": "Jimmy's Flowers ",
+        "address": "2735 S Washington Blvd, Ogden, UT 84401",
+        "phone": "(801) 621-2360",
+        "website": "https://www.jimmysflowers.com/"
+      },
+      { 
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "name": "Megaplex Theatre",
+        "address": "test",
+        "phone": "test",
+        "website": "test.com"
+      },
+      { 
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "name": "Fat Cats",
+        "address": "test",
+        "phone": "test",
+        "website": "test.com"
+      },
+      { 
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "name": "Pig & A Jelly Jar",
+        "address": "test",
+        "phone": "test",
+        "website": "test.com"
+      },
+      { 
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "name": "Stellas on 25th",
+        "address": "test",
+        "phone": "test",
+        "website": "test.com"
+      },
+      { 
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "name": "Treehouse Museum",
+        "address": "test",
+        "phone": "test",
+        "website": "test.com"
+      },
+      { 
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "name": "Even Stevens Sandwiches",
+        "address": "test",
+        "phone": "test",
+        "website": "test.com"
+      },
+      { 
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+        "name": "The Monarch",
+        "address": "test",
+        "phone": "test",
+        "website": "test.com"
+      }
+    ]
+  }

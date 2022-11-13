@@ -119,3 +119,49 @@ if (!something in local storage){
     subtract the two dates - today and the previous date (/1000/60/60/24) (calling a function)
     set the new date in local storage 
 }
+
+
+
+
+
+DIRECTORY 
+
+create a seperate JS file 
+
+have an "addEventListener" in order to change from cards to tabls view
+and then once they've clicked it we also need to hide the cards 
+    ex. on how to hide the cards 
+    option 1
+    card.style.display = 'none';
+
+    option 2
+    card.forEach((item) => {
+        item.remove();
+    })
+
+you can wrap the cards or table in a whole div and then just hide the divs 
+    (<div class="cards"></div>)
+
+function displaying the cards will delete the table (or hide)
+function displaying the table will delete the cards (or hide) 
+
+BUTTONS:
+go to google fonts and go to the icon section 
+    download the png and insert the image with the "addEventListener"
+or you can go to w3schools html symbols and you can use that (&#9868; and &#9871;)
+    you can just put those into a buttom tab
+
+
+table vertical (small view):
+    grab the <td> in phone view and change it to display:block 
+    you need to turn it off for when it gets bigger (display:inline)
+
+
+
+
+EXTRA CREDIT - table at medium 
+    window.addEventListener('resize', reportwindow)
+
+    reportwindow (function)
+        if the window is this width call the card function 
+        it the window is this width call the table fucntion 
