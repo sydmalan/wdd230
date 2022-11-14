@@ -1,88 +1,88 @@
 {
     "businesses": [
       { 
-        "imageurl": "https://images.squarespace-cdn.com/content/v1/536c1538e4b039b3c8c733b5/6e0858d1-5359-4341-a1cf-b4e3ec9fa13e/colorful+banner+small+size.png?format=1500w",
+        "image": "wafflelove.png",
         "name": "Waffle Love",
         "address": "109 25th St, Ogden, UT 84401",
         "phone": "(385) 244-1169",
-        "website": "https://wafflelove.com/"
+        "website": "www.wafflelove.com"
       },
       { 
-        "imageurl": "https://cdn.firespring.com/images/acaeb1b1-8be5-4ebd-bbea-609a134b3133.png",
+        "image": "eccles.png",
         "name": "Eccles Art Center",
         "address": "2580 Jefferson Ave, Ogden, UT 84401",
         "phone": "(801) 392-6935",
-        "website": "https://ogden4arts.org/"
+        "website": "www.ogden4arts.org"
       },
       { 
-        "imageurl": "https://cdn.saffire.com/images.ashx?t=ig&rid=EgyptianTheater&i=logo(2).png",
+        "image": "peerys.png",
         "name": "Peery's Egyptian Theater",
         "address": "2415 Washington Blvd, Ogden, UT 84401",
         "phone": "(801) 689-8700",
-        "website": "https://www.ogdenpet.com/"
+        "website": "www.ogdenpet.com"
       },
       { 
-        "imageurl": "https://www.ogdencity.com/ImageRepository/Document?documentID=21461",
+        "image": "union.png",
         "name": "Union Station",
         "address": "Union Station, 2501 Wall Ave, Ogden, UT 84401",
         "phone": "(801) 629-8680",
-        "website": "https://www.ogdencity.com/2277/Union-Station"
+        "website": "www.ogdencity.com/2277/Union-Station"
       },
       { 
-        "imageurl": "https://assets.eflorist.com/site/EF-14914/Logo/m5760125-logo.png",
+        "image": "jimmy.png",
         "name": "Jimmy's Flowers ",
         "address": "2735 S Washington Blvd, Ogden, UT 84401",
         "phone": "(801) 621-2360",
-        "website": "https://www.jimmysflowers.com/"
+        "website": "www.jimmysflowers.com"
       },
       { 
-        "imageurl": "https://www.lhm.com/wp-content/uploads/2016/06/lhmmegaplex.png",
+        "image": "megaplex.png",
         "name": "Megaplex Theatre",
         "address": "2351 Kiesel Ave, Ogden, UT 84401",
         "phone": "(801) 528-5800",
-        "website": "https://www.megaplextheatres.com/thejunction"
+        "website": "www.megaplextheatres.com/thejunction"
       },
       { 
-        "imageurl": "https://www.kindpng.com/picc/m/240-2400904_fat-cat-software-coupon-code-fat-cats-bowling.png",
+        "image": "fatcats.png",
         "name": "Fat Cats",
         "address": "2261 Kiesel Ave #1, Ogden, UT 84401",
         "phone": "(801) 627-4386",
-        "website": "https://www.fatcatsfun.com/locations/ogden/"
+        "website": "www.fatcatsfun.com/locations/ogden/"
       },
       { 
-        "imageurl": "https://cdn.shopify.com/s/files/1/0602/9167/8398/files/logo_white_big_2x_6f521e23-916e-4efa-8376-5c46f4d659f8_800x.png?v=1632266235",
+        "image": "pig.png",
         "name": "Pig & A Jelly Jar",
         "address": "227 25th St, Ogden, UT 84401",
         "phone": "(801) 605-8400",
-        "website": "https://pigandajellyjar.com/"
+        "website": "www.pigandajellyjar.com"
       },
       { 
-        "imageurl": "https://www.stellason25th.com/wp-content/uploads/2022/09/cropped-logo-1.png",
+        "image": "stellas.png",
         "name": "Stellas on 25th",
         "address": "225 25th St, Ogden, UT 84401",
         "phone": "(385) 333-4184",
-        "website": "https://www.stellason25th.com/"
+        "website": "www.stellason25th.com"
       },
       { 
-        "imageurl": "https://treehousemuseum.org/sites/default/files/Logo.png",
+        "image": "treehouse.png",
         "name": "Treehouse Museum",
         "address": "347 22nd St, Ogden, UT 84401",
         "phone": "(801) 394-9663",
-        "website": "https://www.treehousemuseum.org/"
+        "website": "www.treehousemuseum.org"
       },
       { 
-        "imageurl": "https://images.getbento.com/accounts/bcfa22e71280bcf817c625b88bc9ab81/media/images/27941logo.svg",
+        "image": "evenstevens.png",
         "name": "Even Stevens Sandwiches",
         "address": "2214 Washington Blvd, Ogden, UT 84401",
         "phone": "(385) 333-4194",
-        "website": "https://www.evenstevens.com/location/even-stevens-sandwiches-ogden/?utm_source=GMB&utm_medium=organic"
+        "website": "www.evenstevens.com"
       },
       { 
-        "imageurl": "http://themonarchogden.com/wp-content/uploads/2020/05/monarch-logo-NAV.png",
+        "image": "monarch.png",
         "name": "The Monarch",
         "address": "455 25th St, Ogden, UT 84401",
         "phone": "(801) 893-6604",
-        "website": "https://themonarchogden.com/?utm_source=google+local&utm_medium=organic"
+        "website": "www.themonarchogden.com"
       }
     ]
   }
