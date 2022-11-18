@@ -337,10 +337,10 @@ h3{
 
 .discover_img{
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 400px;
     width: 95%;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 
@@ -408,7 +408,11 @@ label{
     text-align: left;
 }
 
-#membership h2, h3{
+#membership h2{
+    text-align: left;
+}
+
+#membership h3{
     text-align: left;
 }
 

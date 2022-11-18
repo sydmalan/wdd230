@@ -151,21 +151,30 @@ picture img{
 
 /* Discover */
 #discover_content {
-  margin: 0px;
+  max-width: 95%;
+    margin: 0 auto;
   font-family: Gothic, sans-serif;
   color: black;
   background-color: #FFF0D8;
   text-align: center;
+}
+
+#discover_grid{
+  display:grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.disover_img{
-  display:grid;
-}
-
-figure img:hover {
+.disc_pic img:hover {
   box-shadow: 0 0 15px #333;
 }
+
+#datevisit{
+  margin-top: 50px;
+}
+
+
+
+
 
 /* Form */
 
