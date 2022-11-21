@@ -11,7 +11,7 @@
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
     <script defer src="js/main.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src="js/weather_API.js"></script>
     <title>Ogden Chamber of Commerce</title>
 </head>
 <body id="content">
@@ -31,7 +31,7 @@
             <ul id="primarynav"> 
                 <li> <a class='ham' href='#'><span>&#9776;</span><span>x</span></a></li>
                 <li> <a href='https://sydmalan.github.io/wdd230/chamber/discover.html'>Discover</a></li>
-                <li> <a href='#'>Directory</a></li>
+                <li> <a href='https://sydmalan.github.io/wdd230/chamber/directory.html'>Directory</a></li>
                 <li> <a href='https://sydmalan.github.io/wdd230/chamber/join.html'>Join</a></li>
                 <li> <a href='#'>Contact</a></li>
             </ul>
@@ -70,13 +70,16 @@
             <div id="weather" class="box box_pad">
                 <h2>Weather</h2>
                 <p>Temperature</p>
+                <p><span id="current-temp"></span> &deg;F</p>
+                <p><span></span></p><figure><img src="" alt="" id="weathericon" /><figcaption></figcaption></figure>
+                <p>Wind Speed: <span id="ws">10</span> MPH</p>
+                <p>Wind Chill: <span id="wc">N/A</span></p>
                 <!-- <p>Low: 47° | High: 71°</p>
                 <p>Sunny</p>
                 <p>Wind Speed: 6 mph</p>
-                <p>Wind Chill: N/A</p> -->
-                <p><span id="t">33</span>&#8457;</p>
-                <p>Wind Speed: <span id='ws'>5</span> MPH</p>
-                <p>Wind Chill: <span id='wc'>N/A</span></p>
+                <p>Wind Chill: N/A</p>
+                <p><span id="t">33</span>&#8457;</p> -->
+                
             </div>
             <div id="news_release" class="box box_pad">
                 <h2>News Release</h2>

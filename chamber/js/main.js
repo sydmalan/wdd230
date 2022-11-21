@@ -40,7 +40,6 @@ dateoutput.textContent = weekname + ", " + mydate.getDate() + " " + monthname + 
 
 
 
-
 // function toggleMenu(){
 //     document.getElementById('primarynav').classList.toggle('open');
 //     document.getElementById('hambutton').classList.toggle('open');
@@ -69,25 +68,6 @@ document.querySelector('.year').textContent = year;
 //shows the date the site was last modified 
 let currentdate = document.lastModified;
 document.querySelector('.updated').textContent = currentdate;
-
-
-// Form Hidden Date
-const form_date = new Date();
-
-const month = Number(date.getMonth()) + 1;
-
-const dateTime =
-    month + ' / ' +
-    form_date.getDate() + ' / ' +
-    form_date.getFullYear() + ' ' +
-    form_date.getHours() + ' : ' +
-    form_date.getMinutes() + ' : ' +
-    form_date.getSeconds()
-;
-
-document.querySelector('#date').value = dateTime;
-console.log(dateTime);
-
 
 
 // // LAZY LOAD and DAYS VISITED
