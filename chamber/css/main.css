@@ -443,7 +443,7 @@ label{
     /* padding: 5%; */
     /* padding: 5%; */
     /* padding-bottom: 0; */
-    margin-top: 5px;
+    margin-left: 90px;
 
 }
 
@@ -451,4 +451,5 @@ label{
 #page-content{
     display:flex;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
